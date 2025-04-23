@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../styles/Product.css';
 import Service_card from './Service_card';
 

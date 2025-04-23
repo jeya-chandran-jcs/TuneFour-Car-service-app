@@ -1,6 +1,6 @@
-import React from 'react'
+
 import NavBar from '../Components/NavBar'
-import Profile from '../Components/Profile'
+
 import Footer from '../Components/Footer'
 import { Outlet } from 'react-router-dom'
 
