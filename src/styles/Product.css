@@ -1,0 +1,46 @@
+.product-carousel-container {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: #1c1c1c;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .carousel-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: skyblue;
+    text-shadow: 0 2px 4px black;
+  }
+  
+  .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    width: fit-content;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .carousel-item {
+    white-space: nowrap;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
